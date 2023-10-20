@@ -1,12 +1,20 @@
+/* Global Selector for a global reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* Inherited Styles */
 body {
     font-family: sans-serif;
     line-height: 1.4;
 }
 
-/* article content area */
+/* article container for centering elements */
 .product {
     border: 4px solid black;
+    width: 825px;
+    margin: 50px auto;
 }
 
 /* h2 title of product */
@@ -15,6 +23,7 @@ body {
     font-size: 22px;
     text-align: center;
     text-transform: uppercase;
+    padding: 15px;
 }
 
 /* PRODUCT INFORMATION */
@@ -22,13 +31,21 @@ body {
     font-size: 24px;
 }
 
+/* Shipping p class */
 .shipping {
     font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
     color: #777;
+    margin-bottom: 20px;
 }
 
+/* product p description */
+.product-description {
+    margin-bottom: 10px;
+}
+
+/* L V H A */
 .more-info:link,
 .more-info:visited {
     color: black;
@@ -43,19 +60,30 @@ body {
 .details-title {
     font-size: 16px;
     text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 
+/* Details ul list */
 .details-list {
     list-style: square;
+    margin-left: 20px;
+}
+
+.details-list li {
+    margin-bottom: 10px;
 }
 
 /* BUTTON */
 .add-cart {
     font-size: 20px;
     text-transform: uppercase;
+    width: 100%;
+    padding: 15px;
     color: #fff;
     background-color: #000;
     border: none;
+    border-top: 4px solid #000;
 }
 
 .add-cart:hover {
