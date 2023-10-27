@@ -28,6 +28,19 @@ body {
     padding: 15px;
 }
 
+/* clears floats */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Main content container */
+.container {
+    /* background-color: red; */
+}
+
+/* image class */
 .product-image {
     float: left;
     margin-right: 40px;
