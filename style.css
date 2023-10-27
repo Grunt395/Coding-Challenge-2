@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* Inherited Styles */
@@ -27,9 +28,23 @@ body {
     padding: 15px;
 }
 
+.product-image {
+    float: left;
+    margin-right: 40px;
+}
+
 /* PRODUCT INFORMATION */
+.box-desc {
+    width: 243px;
+    float: left;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
 .price {
     font-size: 24px;
+    font-weight: bold;
+    float: left;
 }
 
 /* Shipping p class */
@@ -39,6 +54,8 @@ body {
     font-weight: bold;
     color: #777;
     margin-bottom: 20px;
+    margin-top: 8px;
+    float: right;
 }
 
 /* sale p tag */
@@ -59,6 +76,7 @@ body {
 /* product p description */
 .product-description {
     margin-bottom: 10px;
+    clear: both;
 }
 
 /* L V H A */
@@ -108,11 +126,16 @@ body {
 }
 
 /* PRODUCT DETAILS */
+.box-details {
+    width: 243px;
+    float: left;
+    margin-top: 20px;
+}
+
 .details-title {
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 15px;
-    margin-top: 30px;
 }
 
 /* Details ul list */
